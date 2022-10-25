@@ -1,8 +1,8 @@
 <?php require "include/header.php"; ?>
 
 <section id="home">
-    <div class="container f">
-        <div class="center box">
+    <div class="container">
+        <div class="text-center box">
             <!-- <img src="{{ url_for('static', filename='img/ku-logo.png') }}"> -->
             <h1>STUDENT PORTAL</h1>
             <h3>ISST THIRD YEAR STUDENTS</h3>

@@ -11,46 +11,51 @@
                 </div>
                 <div class="col-md-6 col-xl-4 box mt-5">
                     <h2 class="mb20">Register yourself here.</h2>
-                    <form method="POST" class="mg-zero">
-                        <div class="form-row">
-                            <div class="form-group col-md-6">
-                                <label for="fname">First Name</label>
-                                <input type="text" name="fname" class='form-control' placeholder='First Name'>
-                            </div>
-                            <div class="form-group col-md-6">
-                                <label for="lname">Last Name</label>
-                                <input type="text" name="lname" class='form-control' placeholder='Last Name'>
-                            </div>
+                    <form method="POST" class="row g-2 mg-zero">
+
+                        <div class="form-group col-md-6">
+                            <label for="fname">First Name</label>
+                            <input type="text" name="fname" class='form-control' placeholder='First Name'>
                         </div>
+
+                        <div class="form-group col-md-6">
+                            <label for="lname">Last Name</label>
+                            <input type="text" name="lname" class='form-control' placeholder='Last Name'>
+                        </div>
+
                         <div class="form-group">
                             <label for="username">Username</label>
-                            <div class="input-group mb-2">
-                                <div class="input-group-prepend">
-                                  <div class="input-group-text"><i class="fas fa-at"></i></div>
-                                </div>
-                                <input type="text" name="username" class='form-control' placeholder='Username'>
+                            <div class="input-group">
+                                <span class="input-group-text" id="basic-addon1"><i class="fas fa-at"></i></span>
+                                <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
                             </div>
                         </div>
+
                         <div class="form-group">
                             <label for="email">Email</label>
                             <input type="email" name="email" class='form-control' placeholder='name@example.com'>
                         </div>
+
                         <div class="form-group">
                             <label for="password">Password</label>
                             <input type="password" name="password" class='form-control' placeholder='********'>                     
                         </div>
+
                         <div class="form-group">
                             <label for="gender">Gender</label>
-                            <select class="form-control">
+                            <select class="form-select">
                                 <option value="Male">Male</option>
                                 <option value="Female">Female</option>
                             </select>                 
                         </div>
-                        <button name="signup" id="signup" class="btn btn-outline btn-warning btn-block">Sign Up</button>
+                        
+                        <div class="d-grid mt-3">
+                            <button name="signup" id="signup" class="btn btn-outline btn-warning btn-block">Sign Up</button>
+                        </div>
                     </form>
                     <div style="margin-top: 15px;">
                         <p>Already have an account?
-                        <a href="#">Login Here</a>
+                        <a href="login.php">Login Here</a>
                         </p>
                     </div>
                 </div>

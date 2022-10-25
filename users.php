@@ -4,7 +4,7 @@
     <div class="container mt-4">
         <h1>Users Data</h1>
         <div class="table-responsive">
-            <table class="table table-hover table-dark mt-3">
+            <table class="table text-center table-hover table-dark mt-3">
                 <thead>
                     <tr>
                         <th scope="col">Id</th>

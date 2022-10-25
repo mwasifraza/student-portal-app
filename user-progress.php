@@ -2,14 +2,14 @@
 
 <section id="">
     <div class="container">
-        <div class="center mt-5 mb-5">
+        <div class="text-center mt-5 mb-5">
             <h1>Current CGPA Score<br><strong>3.01</strong></h1>
         </div>
         <h2 class="mt-4">Your Progress Report</h2>
         <div class="table-responsive">
             <table class="table table-striped table-dark mt-4">
                 <thead>
-                    <tr class="center">
+                    <tr class="text-center">
                         <th scope="col">S. no.</th>
                         <th scope="col">Semester</th>
                         <th scope="col">Obtained Marks</th>
@@ -19,7 +19,7 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr class="center">
+                    <tr class="text-center">
                         <td>id</td>
                         <td>semester</td>
                         <td>marks</td>
